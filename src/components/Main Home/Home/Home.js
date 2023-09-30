@@ -5,6 +5,8 @@ import Services from "../Services/Services";
 import PersonalContact from "../../Personal Information/PersonalContact";
 import Skill from "../Skill Info/Skill";
 import AbouteMe from "../About Me/AbouteMe";
+import SpecialService from "../../Special Service/SpecialService";
+import Project from "../Projects/Project";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <AbouteMe />
       <PersonalContact />
       <Skill />
+      <SpecialService />
+      <Project />
     </div>
   );
 };
