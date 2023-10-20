@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaCode } from "react-icons/fa";
 import Card from "./Card";
-
+import Aos from "aos";
 const SpecialService = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="mt-10">
       <div className="text-center font-medium font-sans ">

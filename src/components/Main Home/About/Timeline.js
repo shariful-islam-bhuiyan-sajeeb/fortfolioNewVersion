@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Timeline.css";
+import Aos from "aos";
 
 const Timeline = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="md:mt-16 sm:mt-8 mt-6">
       <div className="flex md:flex-row flex-col items-center md:justify-around justify-center md:space-y-0 sm:space-y-2 space-y-1 font-medium  text-gray-400 hover:text-white">
@@ -16,7 +20,7 @@ const Timeline = () => {
         <div className="timeline-items">
           {/*=========== University section is here  */}
 
-          <div className="timeline-item">
+          <div data-aos="fade-right" className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-date">2019/20</div>
             <div className="timeline-content text-left space-y-1 group">
@@ -34,7 +38,7 @@ const Timeline = () => {
             </div>
           </div>
           {/*================= Programming hero card section  */}
-          <div className="timeline-item">
+          <div data-aos="fade-left" className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-date">2022</div>
             <div className="timeline-content text-left space-y-1 group">
@@ -51,7 +55,7 @@ const Timeline = () => {
             </div>
           </div>
           {/* ====================== hsc section  */}
-          <div className="timeline-item">
+          <div data-aos="fade-right" className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-date">2019</div>
             <div className="timeline-content text-left space-y-1 group">
@@ -74,7 +78,7 @@ const Timeline = () => {
             </div>
           </div>
           {/* ============== Office Application section is here  */}
-          <div className="timeline-item">
+          <div data-aos="fade-left" className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-date">2017</div>
             <div className="timeline-content group spacey-y-1">
@@ -92,7 +96,7 @@ const Timeline = () => {
             </div>
           </div>
           {/* secondary school certificate  */}
-          <div className="timeline-item">
+          <div data-aos="fade-right" className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-date">2017</div>
             <div className="timeline-content  text-left space-y-1  group">

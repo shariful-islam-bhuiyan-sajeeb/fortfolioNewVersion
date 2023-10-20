@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { SiJavascript } from "react-icons/si";
 import { IoLogoCss3, IoLogoHtml5 } from "react-icons/io";
 import { SiTailwindcss } from "react-icons/si";
@@ -10,8 +10,12 @@ import { FaNode } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiJsonwebtokens } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import Aos from "aos";
 
 const Skill = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="xl:mt-16 lg:mt-10 md:mt-8 mt-4">
       <div className="md:space-y-2 space-y-1">
@@ -27,7 +31,11 @@ const Skill = () => {
       <div className="xl:mt-10 lg:mt-8 sm:mt-6 mt-4 lg:w-4/6 md:w-10/12 w-11/12 mx-auto">
         <div className="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-2 items-center justify-center   ">
           {/* html card -One */}
-          <div className="group w-32 h-32 mx-auto cursor-pointer  ">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="group w-32 h-32 mx-auto cursor-pointer  "
+          >
             <div className="relative h-full w-full text-center rounded-xl  transition-all duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0  ">
                 <div className="flex items-center justify-center h-full w-full rounded-xl object-cover  shadow-black/80   ">
@@ -43,7 +51,11 @@ const Skill = () => {
             </div>
           </div>
           {/* CSS3 card section -two */}
-          <div className="group w-32 h-32 mx-auto cursor-pointer ">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="group w-32 h-32 mx-auto cursor-pointer "
+          >
             <div className="relative h-full w-full rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0  ">
                 <div className="flex items-center justify-center h-full w-full rounded-xl object-cover  shadow-black/80   ">
@@ -59,7 +71,11 @@ const Skill = () => {
             </div>
           </div>
           {/* JavaScript card section -three */}
-          <div className="group w-32 h-32 mx-auto cursor-pointer ">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="group w-32 h-32 mx-auto cursor-pointer "
+          >
             <div className="relative h-full w-full rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0  ">
                 <div className="flex items-center justify-center h-full w-full rounded-xl object-cover  shadow-black/80   ">
@@ -75,7 +91,11 @@ const Skill = () => {
             </div>
           </div>
           {/* Tailwind card section -four */}
-          <div className="group w-32 h-32 mx-auto cursor-pointer ">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="group w-32 h-32 mx-auto cursor-pointer "
+          >
             <div className="relative h-full w-full rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0  ">
                 <div className="flex items-center justify-center h-full w-full rounded-xl object-cover  shadow-black/80   ">
@@ -91,7 +111,11 @@ const Skill = () => {
             </div>
           </div>
           {/* Bootstrap card section -four */}
-          <div className="group w-32 h-32 mx-auto cursor-pointer ">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="group w-32 h-32 mx-auto cursor-pointer "
+          >
             <div className="relative h-full w-full rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0  ">
                 <div className="flex items-center justify-center h-full w-full rounded-xl object-cover  shadow-black/80   ">
@@ -107,7 +131,11 @@ const Skill = () => {
             </div>
           </div>
           {/* React card section -four */}
-          <div className="group w-32 h-32 mx-auto cursor-pointer ">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="group w-32 h-32 mx-auto cursor-pointer "
+          >
             <div className="relative h-full w-full rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0  ">
                 <div className="flex items-center justify-center h-full w-full rounded-xl object-cover  shadow-black/80   ">
@@ -123,7 +151,11 @@ const Skill = () => {
             </div>
           </div>
           {/* Next card section -four */}
-          <div className="group w-32 h-32 mx-auto cursor-pointer ">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="group w-32 h-32 mx-auto cursor-pointer "
+          >
             <div className="relative h-full w-full rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0  ">
                 <div className="flex items-center justify-center h-full w-full rounded-xl object-cover  shadow-black/80   ">
@@ -139,7 +171,11 @@ const Skill = () => {
             </div>
           </div>
           {/* Firebase card section -four */}
-          <div className="group w-32 h-32 mx-auto cursor-pointer ">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="group w-32 h-32 mx-auto cursor-pointer "
+          >
             <div className="relative h-full w-full rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0  ">
                 <div className="flex items-center justify-center h-full w-full rounded-xl object-cover  shadow-black/80   ">
@@ -155,7 +191,11 @@ const Skill = () => {
             </div>
           </div>
           {/* Node js card section -four */}
-          <div className="group w-32 h-32 mx-auto cursor-pointer ">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="group w-32 h-32 mx-auto cursor-pointer "
+          >
             <div className="relative h-full w-full rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0  ">
                 <div className="flex items-center justify-center h-full w-full rounded-xl object-cover  shadow-black/80   ">
@@ -171,7 +211,11 @@ const Skill = () => {
             </div>
           </div>
           {/* Express js card section -four */}
-          <div className="group w-32 h-32 mx-auto cursor-pointer ">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="group w-32 h-32 mx-auto cursor-pointer "
+          >
             <div className="relative h-full w-full rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0  ">
                 <div className="flex items-center justify-center h-full w-full rounded-xl object-cover  shadow-black/80   ">
@@ -187,7 +231,11 @@ const Skill = () => {
             </div>
           </div>
           {/* json web token  card section -four */}
-          <div className="group w-32 h-32 mx-auto cursor-pointer ">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="group w-32 h-32 mx-auto cursor-pointer "
+          >
             <div className="relative h-full w-full rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0  ">
                 <div className="flex items-center justify-center h-full w-full rounded-xl object-cover  shadow-black/80   ">
@@ -203,7 +251,11 @@ const Skill = () => {
             </div>
           </div>
           {/* Mongodb card section -four */}
-          <div className="group w-32 h-32 mx-auto cursor-pointer ">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="group w-32 h-32 mx-auto cursor-pointer "
+          >
             <div className="relative h-full w-full rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0  ">
                 <div className="flex items-center justify-center h-full w-full rounded-xl object-cover  shadow-black/80   ">

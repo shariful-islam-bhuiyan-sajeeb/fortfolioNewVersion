@@ -7,7 +7,12 @@ const Card = () => {
   return (
     <div className="w-10/12 mx-auto lg:mt-10 md:mt-8 mt-6 ">
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-6 sm:gap-4 gap-3">
-        <div className="lg:w-72 w-full lg:h-64 h-full md:space-y-2 space-y-1 flex flex-col items-center justify-center rounded-lg border border-gray-200 bg-gray-800 hover:shadow-lg hover:shadow-gray-500  translate hover:-translate-y-2 transition-transform duration-700">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="lg:w-72 w-full lg:h-64 h-full md:space-y-2 space-y-1 flex flex-col items-center justify-center rounded-lg border border-gray-200 bg-gray-800 hover:shadow-lg hover:shadow-gray-500  translate hover:-translate-y-2 transition-transform duration-700"
+        >
           <FiSettings className="lg:text-6xl md:text-2xl text-xl text-red-600 " />
           <h2 className="uppercase  md:text-xl text-lg font-abc font-semibold  text-white ">
             Web Design
@@ -22,7 +27,12 @@ const Card = () => {
             MERN Stack Web App Development
           </li>
         </div>
-        <div className="lg:w-72 w-full lg:h-64 h-full md:space-y-2 space-y-1 flex flex-col items-center justify-center rounded-lg border border-gray-200 bg-gray-800 hover:shadow-lg hover:shadow-gray-500  translate hover:-translate-y-2 transition-transform duration-700">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="lg:w-72 w-full lg:h-64 h-full md:space-y-2 space-y-1 flex flex-col items-center justify-center rounded-lg border border-gray-200 bg-gray-800 hover:shadow-lg hover:shadow-gray-500  translate hover:-translate-y-2 transition-transform duration-700"
+        >
           <HiCodeBracket className="lg:text-6xl md:text-2xl text-xl text-red-600 " />
           <h2 className="uppercase  md:text-xl text-lg font-abc font-semibold  text-white ">
             Web Development
@@ -37,7 +47,12 @@ const Card = () => {
             Single Page Application (SPA)
           </li>
         </div>
-        <div className="lg:w-72 w-full lg:h-64 h-full md:space-y-2 space-y-1 flex flex-col items-center justify-center rounded-lg border border-gray-200 bg-gray-800 hover:shadow-lg hover:shadow-gray-500  translate hover:-translate-y-2 transition-transform duration-700">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="lg:w-72 w-full lg:h-64 h-full md:space-y-2 space-y-1 flex flex-col items-center justify-center rounded-lg border border-gray-200 bg-gray-800 hover:shadow-lg hover:shadow-gray-500  translate hover:-translate-y-2 transition-transform duration-700"
+        >
           <HiOutlineShieldCheck className="lg:text-6xl md:text-2xl text-xl text-red-600 " />
           <h2 className="uppercase  md:text-xl text-lg font-abc font-semibold  text-white ">
             Web Application
@@ -52,7 +67,12 @@ const Card = () => {
             Document Management System
           </li>
         </div>
-        <div className="lg:w-72 w-full lg:h-64 h-full md:space-y-2 space-y-1 flex flex-col items-center justify-center rounded-lg border border-gray-200 bg-gray-800 hover:shadow-lg hover:shadow-gray-500  translate hover:-translate-y-2 transition-transform duration-700">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="lg:w-72 w-full lg:h-64 h-full md:space-y-2 space-y-1 flex flex-col items-center justify-center rounded-lg border border-gray-200 bg-gray-800 hover:shadow-lg hover:shadow-gray-500  translate hover:-translate-y-2 transition-transform duration-700"
+        >
           <FaHeadset className="lg:text-6xl md:text-2xl text-xl text-red-600 " />
           <h2 className="uppercase  md:text-xl text-lg font-abc font-semibold  text-white  ">
             Programming Support
@@ -63,7 +83,12 @@ const Card = () => {
           </li>
           <li className="text-sm font-abc text-red-400 ">Project Planning</li>
         </div>
-        <div className="lg:w-72 w-full lg:h-64 h-full md:space-y-2 space-y-1 flex flex-col items-center justify-center rounded-lg border border-gray-200 bg-gray-800 hover:shadow-lg hover:shadow-gray-500  translate hover:-translate-y-2 transition-transform duration-700">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="lg:w-72 w-full lg:h-64 h-full md:space-y-2 space-y-1 flex flex-col items-center justify-center rounded-lg border border-gray-200 bg-gray-800 hover:shadow-lg hover:shadow-gray-500  translate hover:-translate-y-2 transition-transform duration-700"
+        >
           <FaShareSquare className="lg:text-6xl md:text-2xl text-xl text-red-600 " />
           <h2 className="uppercase  md:text-lg sm:text-sm text-xs font-abc font-semibold  text-white">
             Teaching Web Development
@@ -78,7 +103,12 @@ const Card = () => {
             FullStack Development
           </li>
         </div>
-        <div className="lg:w-72 w-full lg:h-64 h-full md:space-y-2 space-y-1 flex flex-col items-center justify-center rounded-lg border border-gray-200 bg-gray-800 hover:shadow-lg hover:shadow-gray-500  translate hover:-translate-y-2 transition-transform duration-700">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="lg:w-72 w-full lg:h-64 h-full md:space-y-2 space-y-1 flex flex-col items-center justify-center rounded-lg border border-gray-200 bg-gray-800 hover:shadow-lg hover:shadow-gray-500  translate hover:-translate-y-2 transition-transform duration-700"
+        >
           <FaWordpressSimple className="lg:text-6xl md:text-2xl text-xl text-red-600 " />
           <h2 className="uppercase  md:text-xl text-lg font-abc font-semibold  text-white ">
             Wordpress Fixes <br /> & tweaks
